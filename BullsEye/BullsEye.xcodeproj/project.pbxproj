@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		806331A81DE6F03900076E4C /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 806331A71DE6F03900076E4C /* BullsEye.html */; };
 		80E9F8881DE59BC000760A5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9F8871DE59BC000760A5A /* AppDelegate.swift */; };
 		80E9F88A1DE59BC000760A5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9F8891DE59BC000760A5A /* ViewController.swift */; };
 		80E9F88D1DE59BC000760A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E9F88B1DE59BC000760A5A /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		806331A71DE6F03900076E4C /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		80E9F8841DE59BC000760A5A /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E9F8871DE59BC000760A5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80E9F8891DE59BC000760A5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		80E9F8861DE59BC000760A5A /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				806331A71DE6F03900076E4C /* BullsEye.html */,
 				80E9F8871DE59BC000760A5A /* AppDelegate.swift */,
 				80E9F8891DE59BC000760A5A /* ViewController.swift */,
 				80E9F8991DE5D55E00760A5A /* AboutViewController.swift */,
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80E9F8921DE59BC000760A5A /* LaunchScreen.storyboard in Resources */,
+				806331A81DE6F03900076E4C /* BullsEye.html in Resources */,
 				80E9F88F1DE59BC000760A5A /* Assets.xcassets in Resources */,
 				80E9F88D1DE59BC000760A5A /* Main.storyboard in Resources */,
 			);
@@ -301,6 +305,7 @@
 				80E9F8981DE59BC000760A5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
