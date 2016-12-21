@@ -12,6 +12,7 @@
 		800D3CE31E0AD07700DDC1A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800D3CE11E0AD07700DDC1A7 /* Main.storyboard */; };
 		800D3CE51E0AD07700DDC1A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800D3CE41E0AD07700DDC1A7 /* Assets.xcassets */; };
 		800D3CE81E0AD07700DDC1A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800D3CE61E0AD07700DDC1A7 /* LaunchScreen.storyboard */; };
+		80CC32C11E0ADB5D004E7E65 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CC32C01E0ADB5D004E7E65 /* ChecklistItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		800D3CE41E0AD07700DDC1A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		800D3CE71E0AD07700DDC1A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		800D3CE91E0AD07700DDC1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80CC32C01E0ADB5D004E7E65 /* ChecklistItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				800D3CE41E0AD07700DDC1A7 /* Assets.xcassets */,
 				800D3CE61E0AD07700DDC1A7 /* LaunchScreen.storyboard */,
 				800D3CE91E0AD07700DDC1A7 /* Info.plist */,
+				80CC32C01E0ADB5D004E7E65 /* ChecklistItem.swift */,
 			);
 			path = Checklists;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				800D3CE01E0AD07700DDC1A7 /* ChecklistViewController.swift in Sources */,
+				80CC32C11E0ADB5D004E7E65 /* ChecklistItem.swift in Sources */,
 				800D3CDE1E0AD07700DDC1A7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +301,7 @@
 				800D3CEE1E0AD07700DDC1A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
