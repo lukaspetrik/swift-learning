@@ -43,7 +43,6 @@ class ViewController: UIViewController {
         
         slider.setMaximumTrackImage(trackRightResizable, for: .normal)
         
-        
         startNewGame()
         updateLabels()
     }
