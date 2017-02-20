@@ -16,15 +16,30 @@ class ChecklistViewController: UITableViewController {
         
         items = [ChecklistItem]()
         
-        var item = ChecklistItem()
-        item.text = "Walk the dog"
-        item.checked = true
-        items.append(item)
+        let row0item = ChecklistItem()
+        row0item.text = "Walk the dog"
+        row0item.checked = false
+        items.append(row0item)
         
-        item = ChecklistItem()
-        item.text = "Walk the dog 2"
-        item.checked = false
-        items.append(item)
+        let row1item = ChecklistItem()
+        row1item.text = "Brush my teeth"
+        row1item.checked = true
+        items.append(row1item)
+        
+        let row2item = ChecklistItem()
+        row2item.text = "Learn iOS development"
+        row2item.checked = true
+        items.append(row2item)
+        
+        let row3item = ChecklistItem()
+        row3item.text = "Soccer practice"
+        row3item.checked = false
+        items.append(row3item)
+        
+        let row4item = ChecklistItem()
+        row4item.text = "Eat ice cream"
+        row4item.checked = true
+        items.append(row4item)
         
         super.init(coder: aDecoder)
     }
@@ -41,6 +56,10 @@ class ChecklistViewController: UITableViewController {
 
     
     //MARK: - TableView Routines
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return items.count
     }
@@ -63,7 +82,7 @@ class ChecklistViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView .deselectRow(at: indexPath, animated: false)
+        tableView.deselectRow(at: indexPath, animated: false)
         
         let item = items[indexPath.row]
         item.checked = !item.checked
